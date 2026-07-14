@@ -1,0 +1,79 @@
+{
+  "name": "Purchase Approval",
+  "description": "Routes purchase requests based on amount.",
+  "startTaskId": "enter_request",
+  "tasks": [
+    {
+      "id": "enter_request",
+      "type": "data_entry",
+      "name": "Enter purchase request",
+      "nextTaskId": "route_by_amount",
+      "steps": [
+        {
+          "id": "request_details",
+          "name": "Request details",
+          "fields": [
+            {
+              "id": "amount",
+              "label": "Amount",
+              "type": "number",
+              "required": true
+            },
+            {
+              "id": "description",
+              "label": "Description",
+              "type": "text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route_by_amount",
+      "type": "branch",
+      "name": "Route by amount",
+      "rules": [
+        {
+          "when": {
+            "left": { "var": "enter_request.amount" },
+            "operator": "gt",
+            "right": 500
+          },
+          "nextTaskId": "manager_review"
+        }
+      ],
+      "fallbackTaskId": "auto_approve"
+    },
+    {
+      "id": "manager_review",
+      "type": "data_entry",
+      "name": "Manager review",
+      "nextTaskId": "approved_after_review",
+      "steps": [
+        {
+          "id": "review",
+          "name": "Review",
+          "fields": [
+            {
+              "id": "manager_note",
+              "label": "Manager note",
+              "type": "text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto_approve",
+      "type": "terminal",
+      "name": "Auto approved"
+    },
+    {
+      "id": "approved_after_review",
+      "type": "terminal",
+      "name": "Approved after manager review"
+    }
+  ]
+}
