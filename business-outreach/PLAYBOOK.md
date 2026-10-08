@@ -193,3 +193,5 @@ Use the skills you're selling to run your own sales:
 - **Content engine:** turn each client build into LinkedIn posts and a case study.
 
 Showing prospects "this is the system I use to run my own pipeline" is itself a strong sales pitch.
+
+The lead research and email-drafting part is built: see [`outreach-engine/`](outreach-engine/README.md).

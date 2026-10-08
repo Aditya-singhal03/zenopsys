@@ -1,0 +1,36 @@
+{
+  "id": "home-services",
+  "name": "US home service businesses (HVAC, plumbing, roofing, electrical, pest)",
+  "market": "US",
+  "icp": "Owner-operated US home service companies with roughly 5-60 employees and a real office (not a solo tech), doing residential service and replacement work. Running ads or getting lots of inbound calls.",
+  "disqualifiers": [
+    "Franchise corporate pages or national brands",
+    "Solo operators with no office staff",
+    "Lead-gen sites, directories or marketing agencies"
+  ],
+  "pains": [
+    {
+      "pain": "Missed calls and slow replies to web leads after hours and during busy season",
+      "solution": "Missed-call text-back plus an AI receptionist that qualifies the job and books it into their FSM (ServiceTitan/Jobber/Housecall Pro)",
+      "evidence_to_look_for": "No online booking, phone-only CTAs, reviews mentioning not getting a call back, hiring CSRs/dispatchers"
+    },
+    {
+      "pain": "Unsold estimates never followed up",
+      "solution": "Automated, personalized estimate follow-up sequences triggered from the FSM",
+      "evidence_to_look_for": "Replacement/installation work, financing offers, 'free estimates'"
+    },
+    {
+      "pain": "Few new Google reviews compared with job volume",
+      "solution": "Post-job review requests and AI-drafted replies to every review",
+      "evidence_to_look_for": "Low review count relative to years in business, unanswered reviews"
+    }
+  ],
+  "offer": "A 14-day setup of speed-to-lead (missed-call text-back + booking assistant) connected to their FSM",
+  "guarantee": "If it doesn't book more jobs in the first 30 days than it costs, they don't pay the monthly fee",
+  "common_tools": ["ServiceTitan", "Jobber", "Housecall Pro", "FieldEdge", "Podium", "Birdeye", "Google Local Services Ads"],
+  "mystery_shop": [
+    "Call after 6pm local time and record what happens (voicemail full? answering service? callback time?)",
+    "Submit the website contact/estimate form and time the response"
+  ],
+  "tone": "Plain-spoken, short sentences, talks in jobs booked and calls missed, never tech jargon."
+}

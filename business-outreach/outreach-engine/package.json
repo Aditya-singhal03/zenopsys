@@ -1,0 +1,28 @@
+{
+  "name": "outreach-engine",
+  "version": "1.0.0",
+  "description": "Lead finding, website enrichment, AI research and personalized cold-email drafting for B2B outreach",
+  "scripts": {
+    "outreach": "tsx src/cli.ts",
+    "typecheck": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.132.1",
+    "cheerio": "^1.2.0",
+    "csv-parse": "^7.0.3",
+    "csv-stringify": "^6.9.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}

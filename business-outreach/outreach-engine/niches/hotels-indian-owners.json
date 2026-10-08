@@ -1,0 +1,37 @@
+{
+  "id": "hotels-indian-owners",
+  "name": "US independent and franchised hotels/motels (often Indian-American owned)",
+  "market": "US",
+  "icp": "Owners or management groups running 1-20 limited-service hotels or motels in the US (independent or franchised, e.g. Choice, Wyndham, Best Western, Red Roof). Many are Indian-American, family-run, and operate several properties.",
+  "disqualifiers": [
+    "Hotel brand corporate pages or large REIT-owned portfolios",
+    "OTA listings or directories rather than the property/management company",
+    "Luxury full-service resorts with large in-house teams"
+  ],
+  "pains": [
+    {
+      "pain": "Guest messages, OTA inbox (Booking.com, Expedia) and phone calls overwhelm a thin front desk, especially overnight",
+      "solution": "An assistant that answers guest questions across OTA inboxes, SMS and web chat 24/7 and hands off anything sensitive",
+      "evidence_to_look_for": "No chat, phone-only contact, reviews mentioning unanswered calls or slow responses, hiring front desk/night audit"
+    },
+    {
+      "pain": "Review replies and reputation management across many properties",
+      "solution": "AI-drafted, on-brand replies to every Google/TripAdvisor/OTA review for owner approval, plus weekly sentiment summaries",
+      "evidence_to_look_for": "Unanswered reviews, multiple properties, mixed ratings"
+    },
+    {
+      "pain": "Multi-property reporting and AP invoices handled in spreadsheets",
+      "solution": "Daily owner report across properties (occupancy, ADR, RevPAR from the PMS) and invoice capture into accounting",
+      "evidence_to_look_for": "Management company with several properties, 'our hotels' pages"
+    }
+  ],
+  "offer": "A 2-week pilot at one property: 24/7 guest messaging plus review replies, then roll out to the rest of the portfolio",
+  "guarantee": "If the front desk doesn't feel the difference in 30 days, they don't pay the monthly fee",
+  "common_tools": ["Cloudbeds", "Oracle OPERA", "choiceADVANTAGE", "SynXis", "SiteMinder", "Booking.com Extranet", "Expedia Partner Central", "QuickBooks"],
+  "mystery_shop": [
+    "Call the property at 11pm local time with a simple question (late check-in, parking)",
+    "Message through the website or OTA asking about availability and time the reply"
+  ],
+  "tone": "Warm and respectful, family-business friendly, practical. Owners are busy, often running several properties.",
+  "language_notes": "Do not assume ethnicity or use Hindi/Gujarati greetings unless the data clearly shows the owner's name; even then keep the email in English."
+}

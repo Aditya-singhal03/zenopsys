@@ -1,0 +1,36 @@
+{
+  "id": "insurance-agencies",
+  "name": "US independent insurance agencies",
+  "market": "US",
+  "icp": "Independent P&C insurance agencies (commercial and/or personal lines) with roughly 3-40 staff, owner-led, using an agency management system. Commercial-lines agencies handle many certificate requests.",
+  "disqualifiers": [
+    "Captive agents of a single carrier (State Farm, Allstate, Farmers office pages) since tooling is dictated by the carrier",
+    "Large national brokers or carriers themselves",
+    "Lead-gen comparison sites or directories"
+  ],
+  "pains": [
+    {
+      "pain": "Certificate-of-insurance (COI) requests handled manually by account managers",
+      "solution": "An agent that reads COI request emails, pulls policy details from the AMS, drafts the certificate and queues it for one-click approval",
+      "evidence_to_look_for": "Commercial lines focus (contractors, trucking, construction), 'request a certificate' pages, hiring CSRs/account managers"
+    },
+    {
+      "pain": "Renewal prep and remarketing done by re-keying data into carrier portals",
+      "solution": "Renewal pipeline that gathers exposure updates from clients, pre-fills submissions and summarizes carrier quotes side by side",
+      "evidence_to_look_for": "Many carrier logos, 'we shop multiple carriers', commercial focus"
+    },
+    {
+      "pain": "Slow quote intake from web forms and emails",
+      "solution": "Intake assistant that collects missing underwriting info by email/SMS and creates the prospect in the AMS",
+      "evidence_to_look_for": "Long quote forms, 'get a quote' CTAs, no online quoting"
+    }
+  ],
+  "offer": "A 2-4 week pilot automating one service workflow (usually COIs or quote intake) inside their existing AMS, with human approval",
+  "guarantee": "If it doesn't give back at least 5 hours a week of account-manager time by day 30, they don't pay the monthly fee",
+  "common_tools": ["Applied Epic", "Vertafore AMS360", "HawkSoft", "EZLynx", "QQCatalyst", "AgencyZoom", "NowCerts", "Outlook"],
+  "mystery_shop": [
+    "Submit the website quote form as a small business and time the reply",
+    "Email asking how to request a certificate of insurance and note the process"
+  ],
+  "tone": "Respectful, precise, uses agency vocabulary (COIs, AMS, renewals, remarketing, CSRs). Compliance-aware."
+}

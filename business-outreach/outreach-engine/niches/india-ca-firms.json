@@ -1,0 +1,36 @@
+{
+  "id": "india-ca-firms",
+  "name": "Indian chartered accountant (CA) firms",
+  "market": "IN",
+  "icp": "CA firms in India with roughly 5-60 staff handling GST, income tax and audit work for SME clients. Partner-led decisions.",
+  "disqualifiers": [
+    "Big 4 or large national firms",
+    "Solo freelancers with no staff",
+    "Online compliance marketplaces (e.g. aggregator portals)"
+  ],
+  "pains": [
+    {
+      "pain": "GST reconciliation (GSTR-2B vs purchase register) done manually in Excel every month",
+      "solution": "Reconciliation pipeline that matches invoices, flags mismatches and drafts vendor follow-up emails",
+      "evidence_to_look_for": "GST services listed, many SME clients, hiring article assistants or accountants"
+    },
+    {
+      "pain": "Chasing clients for documents during filing season",
+      "solution": "WhatsApp/email document collection assistant that tracks what is pending per client and sends reminders",
+      "evidence_to_look_for": "ITR/GST filing services, large client base"
+    },
+    {
+      "pain": "Reading GST/income-tax notices and drafting replies",
+      "solution": "Notice reader that summarizes the notice, pulls relevant client data and drafts a first reply for the CA to edit",
+      "evidence_to_look_for": "Litigation/notice handling services listed"
+    }
+  ],
+  "offer": "A 3-week pilot automating GST reconciliation or document collection for one team",
+  "guarantee": "If it doesn't save the team at least 15 hours a month by day 30, no monthly fee",
+  "common_tools": ["Tally Prime", "Zoho Books", "ClearTax", "Excel", "GST portal", "Winman", "Saral", "CompuOffice"],
+  "mystery_shop": [
+    "Email asking about GST filing services for a small business and note response time and process"
+  ],
+  "tone": "Professional, respectful (address as CA <name> where known), specific to GST/ITR workflows.",
+  "language_notes": "WhatsApp message only for after first contact."
+}

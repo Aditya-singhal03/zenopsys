@@ -1,0 +1,11 @@
+{
+  "name": "Your Name",
+  "company": "Your Company",
+  "website": "yourcompany.com",
+  "phone": "+1 (555) 010-0000",
+  "calendar_link": "https://cal.com/your-name/15min",
+  "demo_video_link": "https://www.loom.com/share/your-demo",
+  "postal_address": "123 Example St, Suite 100, Wilmington, DE 19801, USA",
+  "linkedin": "https://www.linkedin.com/in/your-name",
+  "about": "Backend engineer (3 years) and two-time founder based in Bangalore. Builds AI systems that take repetitive back-office work (emails, documents, data entry, follow-ups) off small teams, integrated with the software they already use, with a human approving outputs until accuracy is proven."
+}

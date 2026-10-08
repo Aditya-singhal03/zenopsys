@@ -1,0 +1,37 @@
+{
+  "id": "india-d2c",
+  "name": "Indian D2C brands (Shopify / WooCommerce)",
+  "market": "IN",
+  "icp": "Indian direct-to-consumer brands doing roughly ₹50 lakh to ₹50 crore a year online, selling via their own Shopify/WooCommerce store with COD orders, founder-led. Categories like fashion, beauty, food, home, wellness.",
+  "disqualifiers": [
+    "Marketplace-only sellers with no own store",
+    "Large brands with in-house tech teams (e.g. listed companies)",
+    "Agencies, aggregators or dropshipping stores with no real brand"
+  ],
+  "pains": [
+    {
+      "pain": "High RTO on COD orders",
+      "solution": "WhatsApp COD confirmation + address verification flow that cancels or nudges risky orders before dispatch",
+      "evidence_to_look_for": "COD offered, Shopify store, ads-driven traffic"
+    },
+    {
+      "pain": "Support team answering the same 'where is my order' and return questions on WhatsApp/Instagram",
+      "solution": "WhatsApp/Instagram support agent in Hinglish connected to Shopify and the shipping aggregator, handing off edge cases",
+      "evidence_to_look_for": "WhatsApp chat button, support email only, hiring support executives"
+    },
+    {
+      "pain": "Abandoned carts not recovered",
+      "solution": "Personalized WhatsApp cart recovery with offers tuned by product and customer history",
+      "evidence_to_look_for": "No visible WhatsApp marketing, high-AOV products"
+    }
+  ],
+  "offer": "A 2-week setup of WhatsApp COD confirmation + order-status support on their store",
+  "guarantee": "If RTO or support load doesn't measurably drop in 30 days, no monthly fee",
+  "common_tools": ["Shopify", "WooCommerce", "Shiprocket", "Delhivery", "Gokwik", "Razorpay", "Interakt", "WATI", "Gorgias", "Freshdesk"],
+  "mystery_shop": [
+    "Message the brand's WhatsApp asking 'where is my order' style questions and time the reply",
+    "Add to cart, leave, and see whether any recovery message arrives"
+  ],
+  "tone": "Founder-to-founder, crisp, Indian business English, talks in RTO %, ₹ and orders/day.",
+  "language_notes": "WhatsApp message should be short and only intended for after the first contact (email/LinkedIn/intro). Never suggest cold WhatsApp blasts."
+}

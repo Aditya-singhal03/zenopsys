@@ -1,0 +1,37 @@
+{
+  "id": "freight-brokers",
+  "name": "US freight brokers and small 3PLs",
+  "market": "US",
+  "icp": "Independent US freight brokerages and small 3PLs with roughly 3-50 employees, where the owner or VP Ops still makes buying decisions. Moves FTL/LTL, reefer, flatbed or drayage. Ops team works out of email and a TMS.",
+  "disqualifiers": [
+    "Large national brokerages or public companies (e.g. 500+ employees)",
+    "Asset-based carriers with no brokerage arm",
+    "Load boards, software vendors, factoring companies or directories",
+    "Website is a parked page or the business looks closed"
+  ],
+  "pains": [
+    {
+      "pain": "Ops staff re-typing load tenders and quote requests from emails and PDFs into the TMS",
+      "solution": "An email agent that reads tenders (body + PDF/Excel attachments), extracts lanes, dates, equipment and rates, drafts the quote and creates the load in their TMS for one-click approval",
+      "evidence_to_look_for": "Quote request forms, 'email us your loads', hiring dispatchers/coordinators, high-volume lanes"
+    },
+    {
+      "pain": "Carrier check calls and shipper status updates done by phone and manual emails",
+      "solution": "Automated check-call outreach (SMS/email/voice) and proactive shipper status updates written from tracking data",
+      "evidence_to_look_for": "Mentions of 24/7 tracking, 'real-time updates', hiring night dispatch or track-and-trace staff"
+    },
+    {
+      "pain": "Rate confirmations, BOLs and PODs processed by hand for invoicing",
+      "solution": "Document pipeline that matches PODs to loads, flags missing paperwork and drafts invoices, cutting days-to-invoice",
+      "evidence_to_look_for": "Hiring billing/AR staff, factoring mentions, 'quick pay' programs"
+    }
+  ],
+  "offer": "A 2-4 week pilot that takes one email-heavy workflow (usually tender entry or quoting) off the ops team, running beside their current process with human approval",
+  "guarantee": "If it doesn't save the team at least 10 hours a week by day 30, they don't pay the monthly fee",
+  "common_tools": ["McLeod PowerBroker", "Tai TMS", "Aljex", "Revenova", "Rose Rocket", "Ascend TMS", "DAT", "Truckstop", "MacroPoint", "Trucker Tools", "Outlook", "Gmail"],
+  "mystery_shop": [
+    "Email or submit the quote form for a realistic lane and measure the response time and quality",
+    "Call the main line after 5pm local time and note whether anyone picks up"
+  ],
+  "tone": "Direct, practical, uses freight vocabulary correctly (tenders, lanes, rate cons, PODs, check calls). No hype."
+}

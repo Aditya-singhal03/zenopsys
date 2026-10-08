@@ -7,7 +7,7 @@
     "dev": "npm run build && node dist/src/server.js",
     "build": "tsc",
     "start": "node dist/src/server.js",
-    "test": "vitest run",
+    "test": "vitest run tests",
     "example": "npm run build && node dist/examples/run-worked-example.js"
   },
   "dependencies": {
